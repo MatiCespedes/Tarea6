@@ -1,0 +1,124 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --primary: #00abfb;
+    --secondary: #7bc62d;
+    --gray: #9e9e9e;
+    --primaryfont: 'Lora', serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.title  {
+    text-align: center;
+    color: var(--black);
+    font-family: var(--primaryfont);
+    font-weight: 700;
+
+}
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.member h3{
+    text-align: start ;
+    font-weight: normal;
+}
+
+.button {
+    background-color: blue;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+body {
+    font-family: var(--primaryfont);
+    background: rgb(228, 221, 221);
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    color: var(--black);
+    text-align: center;
+    font-weight: 700;
+    font-family: var(--primaryfont);
+} 
+
+.nav-bg {
+    background-color: var(--primary);
+}
+
+.primary-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.primary-nav a{
+    color: var(--white);
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.primary-nav a:hover{
+    background-color: var(--secondary);
+    color: var(--black);
+}
+  
+.description {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+  
+  
+.description p {
+    margin: 5px 0;
+    text-align: center;
+}
+  
+
+.bullet-container {
+    display: flex;
+    justify-content: center;
+}
+
+.bullet-list {
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.image {
+    text-align: center;
+    padding: 20px;
+}
+  
+
+.image img {
+    border-radius: 0%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+  
+.footer {
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+}
+
